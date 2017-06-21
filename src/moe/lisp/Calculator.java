@@ -25,7 +25,11 @@ public class Calculator {
             if (b > c) {
                 x = a;
             } else {
-                x = c;
+                if (a > c) {
+                    x = a;
+                } else {
+                    x = c;
+                }
             }
         } else {
             if (b > c) {
